@@ -1,0 +1,25 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    text-align: center;
+    padding: 50px;
+}
+
+.container {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    max-width: 400px;
+    margin: auto;
+}
+
+h1 {
+    color: #333;
+}
+
+#timer {
+    font-size: 48px;
+    color: #e63946;
+    font-weight: bold;
+}

@@ -1,4 +1,3 @@
-// Date de fin du timer
 const endDate = new Date("2024-12-31T23:59:59").getTime();
 
 function updateTimer() {
@@ -18,8 +17,6 @@ function updateTimer() {
     }
 }
 
-// Mettre à jour le timer toutes les secondes
 setInterval(updateTimer, 1000);
 
-// Lancer le timer immédiatement
 updateTimer();
